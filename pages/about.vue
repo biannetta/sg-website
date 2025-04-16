@@ -1,8 +1,11 @@
+<script setup lang="ts">
+definePageMeta({
+  title: 'About'
+})
+
+</script>
 <template>
   <div>
-    <h1>About Page</h1>
-    <AppAlert>
-      This is the about page
-    </AppAlert>
+    <p>This is about Status Green. Maybe we don't need this page</p>
   </div>
 </template>

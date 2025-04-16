@@ -1,9 +1,12 @@
+<script setup lang="ts">
+definePageMeta({
+  title: 'Home'
+})
+
+</script>
 <template>
   <div>
-    <h1>Welcome to the homepage</h1>
-    <NuxtLink to="/about">Go to About Page</NuxtLink>
-    <AppAlert>
-      This was automatically imported
-    </AppAlert>
+    <p>We are a company that specializes in providing sustainable solutions for businesses.</p>
+    <p>Our mission is to help organizations reduce their environmental impact while improving their bottom line.</p>
   </div>
 </template>
