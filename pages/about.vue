@@ -1,6 +1,7 @@
 <script setup lang="ts">
 definePageMeta({
-  title: 'About'
+  title: 'About',
+  navigation: 'main'
 })
 
 </script>

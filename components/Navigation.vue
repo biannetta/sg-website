@@ -1,11 +1,14 @@
 <script setup lang="ts">
+const { navType } = defineProps({
+  navType: String
+})
+
 const router = useRouter()
 
 const routes = router.getRoutes().map(({ name, path, meta }) => {
-  const { title } = meta
-
-  return { name, path, title }
-}).filter(route => route.name !== 'index')
+  const { title, navigation } = meta
+  return { name, path, title, navigation }
+}).filter(route => route.navigation === navType)
 </script>
 
 <template>
